@@ -1,0 +1,1 @@
+def element_frequency(lst):    frequency = {i: 0 for i in range(10)}    for num in lst:        frequency[num] = frequency.get(num, 0) + 1    return frequencyprint(element_frequency([2, 1, 2, 3, 1, 9]))

@@ -1,0 +1,1 @@
+def count_distinct(lst):    return len(set(lst))print(count_distinct([2, 1, 2, 3, 1, 9]))

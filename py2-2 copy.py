@@ -1,0 +1,1 @@
+def max_num_in_list(lst):    max_value = lst[0]    for num in lst:        if num > max_value:            max_value = num    return max_valueprint(max_num_in_list([1, 2, -8, 0]))

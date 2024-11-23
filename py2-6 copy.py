@@ -1,0 +1,1 @@
+def right_rotate(lst, n):    n %= len(lst)    return lst[-n:] + lst[:-n]print(right_rotate([2, 1, 2, 3, 1, 9], 2))
